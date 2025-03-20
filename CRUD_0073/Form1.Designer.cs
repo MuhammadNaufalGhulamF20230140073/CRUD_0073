@@ -44,6 +44,8 @@
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnUbah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
+            this.dgvMahasiswa = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMahasiswa)).BeginInit();
             this.SuspendLayout();
             // 
             // NIM
@@ -168,11 +170,20 @@
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
             // 
+            // dgvMahasiswa
+            // 
+            this.dgvMahasiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMahasiswa.Location = new System.Drawing.Point(316, 252);
+            this.dgvMahasiswa.Name = "dgvMahasiswa";
+            this.dgvMahasiswa.Size = new System.Drawing.Size(240, 150);
+            this.dgvMahasiswa.TabIndex = 15;
+            // 
             // Tambah
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dgvMahasiswa);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnRefresh);
@@ -189,6 +200,7 @@
             this.Controls.Add(this.NIM);
             this.Name = "Tambah";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMahasiswa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,6 +223,7 @@
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button btnUbah;
         private System.Windows.Forms.Button btnHapus;
+        private System.Windows.Forms.DataGridView dgvMahasiswa;
     }
 }
 

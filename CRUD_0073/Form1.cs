@@ -10,16 +10,5 @@ using System.Windows.Forms;
 
 namespace CRUD_0073
 {
-    public partial class Tambah: Form
+    public partial class Form1 : Form
     {
-        public Tambah()
-        {
-            InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-    }
-}
