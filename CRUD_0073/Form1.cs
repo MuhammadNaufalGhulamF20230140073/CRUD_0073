@@ -23,3 +23,9 @@ namespace CRUD_0073
         {
             LoadData();
         }
+
+
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+       

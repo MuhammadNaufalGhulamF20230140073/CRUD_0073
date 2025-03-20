@@ -1,6 +1,6 @@
 ﻿namespace CRUD_0073
 {
-    partial class Tambah
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
