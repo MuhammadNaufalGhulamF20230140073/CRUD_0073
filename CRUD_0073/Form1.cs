@@ -122,4 +122,10 @@ namespace CRUD_0073
                     }
                 }
             }
+            else
+            {
+                MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
 
