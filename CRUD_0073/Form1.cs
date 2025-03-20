@@ -92,3 +92,6 @@ namespace CRUD_0073
             }
         }
 
+        private void BtnHapus_Click(object sender, EventArgs e)
+        {
+
