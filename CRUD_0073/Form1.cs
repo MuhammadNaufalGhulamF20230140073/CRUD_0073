@@ -31,4 +31,6 @@ namespace CRUD_0073
             txtNama.Clear();
             txtEmail.Clear();
             txtTelepon.Clear();
-        
+            txtAlamat.Clear();
+            txtNIM.Focus();
+        }
