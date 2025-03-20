@@ -44,3 +44,6 @@ namespace CRUD_0073
                 {
                     conn.Open();
                     string query = "SELECT NIM, Nama, Email, Telepon, Alamat FROM Mahasiswa";
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
