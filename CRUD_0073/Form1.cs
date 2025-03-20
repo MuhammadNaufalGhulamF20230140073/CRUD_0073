@@ -85,3 +85,5 @@ namespace CRUD_0073
                         ClearForm();
                     }
                 }
+                catch (Exception ex)
+                {
