@@ -40,3 +40,7 @@ namespace CRUD_0073
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT NIM, Nama, Email, Telepon, Alamat FROM Mahasiswa";
