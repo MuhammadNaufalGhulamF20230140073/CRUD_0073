@@ -58,3 +58,7 @@ namespace CRUD_0073
                 }
             }
         }
+        private void BtnTambah_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
