@@ -28,4 +28,5 @@ namespace CRUD_0073
         private void ClearForm()
         {
             txtNIM.Clear();
-       
+            txtNama.Clear();
+          
