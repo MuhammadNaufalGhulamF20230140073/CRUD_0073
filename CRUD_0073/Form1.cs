@@ -80,3 +80,8 @@ namespace CRUD_0073
                         cmd.Parameters.AddWithValue("@Telepon", txtTelepon.Text.Trim());
                         cmd.Parameters.AddWithValue("@Alamat", txtAlamat.Text.Trim());
                         cmd.ExecuteNonQuery();
+                        MessageBox.Show("Data berhasil ditambahkan!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadData();
+                        ClearForm();
+                    }
+                }
