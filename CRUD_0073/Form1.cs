@@ -110,4 +110,9 @@ namespace CRUD_0073
                             {
                                 cmd.Parameters.AddWithValue("@NIM", nim);
                                 cmd.ExecuteNonQuery();
+                                MessageBox.Show("Data berhasil dihapus!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                LoadData();
+                                ClearForm();
+                            }
+                        }
 
