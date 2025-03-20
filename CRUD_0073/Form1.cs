@@ -62,3 +62,7 @@ namespace CRUD_0073
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
+                try
+                {
+                    if (string.IsNullOrWhiteSpace(txtNIM.Text) || string.IsNullOrWhiteSpace(txtNama.Text) || string.IsNullOrWhiteSpace(txtEmail.Text) || string.IsNullOrWhiteSpace(txtTelepon.Text))
+                    {
