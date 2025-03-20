@@ -14,3 +14,7 @@ namespace CRUD_0073
     {
         // Ganti "SERVER" sesuai dengan SQL Server Anda
         private string connectionString = "Data Source=DESKTOP-4D54309; Initial Catalog=OrganisasiMahasiswa; Integrated Security=True";
+        public Form1()
+        {
+            InitializeComponent();
+        }
