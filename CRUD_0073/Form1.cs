@@ -12,3 +12,5 @@ namespace CRUD_0073
 {
     public partial class Form1 : Form
     {
+        // Ganti "SERVER" sesuai dengan SQL Server Anda
+        private string connectionString = "Data Source=DESKTOP-4D54309; Initial Catalog=OrganisasiMahasiswa; Integrated Security=True";
