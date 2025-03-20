@@ -94,4 +94,8 @@ namespace CRUD_0073
 
         private void BtnHapus_Click(object sender, EventArgs e)
         {
+            if (dgvMahasiswa.SelectedRows.Count > 0)
+            {
+                DialogResult confirm = MessageBox.Show("Yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm == DialogResult.Yes)
 
