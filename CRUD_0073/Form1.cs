@@ -87,3 +87,8 @@ namespace CRUD_0073
                 }
                 catch (Exception ex)
                 {
+                    MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
